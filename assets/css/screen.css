@@ -1056,3 +1056,11 @@ a:hover, a:active, a:focus {
   -o-font-feature-settings: 'onum' 1, 'kern' 1;
   font-feature-settings: 'onum' 1, 'kern' 1;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
