@@ -57,7 +57,7 @@ $gutterwidths: (
 // ! Set cap height to set to the baseline.
 
 $bodytype: (
-  font-family: "source-serif-pro",sans-serif;
+  font-family: "source-serif-pro,sans-serif",
   regular: 400,
   bold: 700,
   italic: italic,
@@ -65,7 +65,7 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: "museo-sans",sans-serif;
+  font-family: "museo-sans,sans-serif",
   regular: 400,
   bold: 900,
   cap-height: 0.66

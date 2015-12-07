@@ -9,21 +9,21 @@
 
 		<title>{% block title %}Sassaparilla: Fiennes Edition{% endblock %}</title>
 		{{ "screen.css" | asset_url | stylesheet_tag }}
-		{% block styles %}{% endblock %}		
+		{% block styles %}{% endblock %}
 		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 		<!-- TODO: Download a custom build of modernizer to suit the project -->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+		<script src="https://use.typekit.net/ocf0syy.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 
 	<body>
 
 		{% block header %}{% endblock %}
 
-		<div class="site-content">
 			{% block content %}{% endblock %}
-		</div>	
 
-		{% block footer %}{% endblock %}	
+		{% block footer %}{% endblock %}
 
 		<!-- TODO: Select version of jquery and link to CDN -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
