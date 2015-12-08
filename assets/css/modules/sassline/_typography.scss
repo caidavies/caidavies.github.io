@@ -15,7 +15,6 @@ body {
   font-style: normal;
   font-weight: map-get($bodytype, regular);
   line-height: 2rem;
-
   -webkit-font-smoothing: antialiased;
 
   @include fontsize(zeta, all);
