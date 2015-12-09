@@ -1065,6 +1065,11 @@ a:hover, a:active, a:focus {
   font-feature-settings: 'onum' 1, 'kern' 1;
 }
 
+.main-container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 .nav-hr {
   height: 3px;
   background: #E6C39C;
@@ -1131,7 +1136,7 @@ a:hover, a:active, a:focus {
   width: 65.8807828%;
   margin-left: 17.0596086%;
   margin-top: 70px;
-  margin-bottom: 140px;
+  margin-bottom: 70px;
 }
 .index__intro:last-child {
   margin-right: 0;
@@ -1148,4 +1153,42 @@ a:hover, a:active, a:focus {
   font-family: source-serif-pro,sans-serif;
   margin-bottom: 24px;
   line-height: 1.4;
+}
+
+.about-me {
+  float: left;
+  display: block;
+  margin-right: 2.3576516%;
+  width: 82.9403914%;
+  margin-left: 8.5298043%;
+}
+.about-me:last-child {
+  margin-right: 0;
+}
+
+.my-work {
+  float: left;
+  display: block;
+  margin-right: 2.3576516%;
+  width: 82.9403914%;
+  margin-left: 8.5298043%;
+}
+.my-work:last-child {
+  margin-right: 0;
+}
+
+.my-work__heading {
+  font-family: source-serif-pro,sans-serif !important;
+  font-size: 100% !important;
+}
+
+.my-work__link {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.my-work__link:hover .arrow {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding-left: 5px;
 }
