@@ -1,21 +1,16 @@
 .index__intro {
-  text-align:center;
-  @include span-columns(8);
-  @include shift(2);
-  margin-top:70px;
-  margin-bottom:70px;
-  .stars {
-    font-size:24px;
-    color: $linkColour;
-    font-family:"Helvetica", sans-serif;
-    font-weight:normal;
-  }
+  @include span-columns(10);
+  @include shift(1);
+  margin-top:40px;
+  margin-bottom:40px;
   h1 {
-    font-size:30px;
+    font-size:46px;
     font-weight:500;
     font-family:unquote(map-get($bodytype, font-family));
     margin-bottom:24px;
-
     line-height:1.4;
+    .index__heading-anchor {
+      font-weight:unquote(map-get($bodytype, bold));
+    }
   }
 }

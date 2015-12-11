@@ -41,7 +41,7 @@ a {
 .typeset {
 
   // Nice underlines for text links.
-  p a, li a {
+  p a, li a, h1 a {
     background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
     background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
     background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
@@ -68,6 +68,7 @@ a {
     font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
 
     @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+    color: $bodyColour;
   }
 
   // Headings. OpenType ligatures, discretionary ligatures and lining figures enabled if available.
@@ -411,4 +412,14 @@ a {
     -o-font-feature-settings: 'onum' 1, 'kern' 1;
     font-feature-settings: 'onum' 1, 'kern' 1;
   }
+}
+
+// Custom
+.heading--bordered {
+  border-bottom:3px solid $shadeOfGrey;
+  padding-bottom:.175rem;
+}
+
+.paragraph--bordered {
+  margin-top:1rem;
 }

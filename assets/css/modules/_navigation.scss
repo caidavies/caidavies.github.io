@@ -1,9 +1,3 @@
-.nav-hr {
-  height:3px;
-  background:#E6C39C;
-  width:100%;
-}
-
 .main-nav-container {
   @include outer-container;
   max-width:940px;
@@ -33,3 +27,4 @@
   text-decoration:none;
   font-weight: map-get($headingtype, semibold);
 }
+
