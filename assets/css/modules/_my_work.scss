@@ -1,20 +1,41 @@
+.my-work-container {
+  @include clearfix;
+  max-width:100%;
+  width:100%;
+  background:$primary;
+  position:relative;
+  &::before {
+    background: #fff;
+    content: '';
+    width: 110%;
+    height: 80px;
+    position: absolute;
+    top: -50px;
+    transform: rotate(-3deg);
+    left: -10px;
+  }
+}
+
 .my-work {
   @include span-columns(10);
   @include shift(1);
+  h1,h2,h3,h4,h5,p {color:#fff;}
+  padding-top:5em;
 }
 
-.my-work__heading {
-  font-family: unquote(map-get($bodytype, font-family)) !important;
-  font-size:100% !important;
+.my-work__headline {
+  margin-top:2em;
 }
-.my-work__link {
-  font-weight:unquote(map-get($bodytype, bold));
-  text-decoration:underline;
-  &:hover {
-    // text-decoration:underline;
-    .arrow {
-      @include transition(all .2s ease-in-out);
-      padding-left:5px;
-    }
+
+.my-work__paragraph {
+  position:relative;
+  &:after {
+    width:60px;
+    height:3px;
+    background:$shadeOfGrey;
+    content:'';
+    position:absolute;
+    bottom:-30px;
+    left:0;
   }
 }
