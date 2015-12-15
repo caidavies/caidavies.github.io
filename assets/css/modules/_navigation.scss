@@ -1,14 +1,25 @@
 .main-nav-container {
   @include outer-container;
-  max-width:940px;
-  @media only screen and (max-width:940px) {
-    width:90%;
+  max-width:100%;
+}
+
+.main-nav-container--secondary {
+  background:$secondary;
+  .main-nav__logo {
+    color:#fff;
+  }
+  .main-nav__contact-me {
+    color:#fff;
   }
 }
 .main-nav {
-  @include span-columns(12);
   @include clearfix;
   padding:40px 0;
+  max-width:940px;
+  margin:0 auto;
+  @media only screen and (max-width:940px) {
+    width:90%;
+  }
 }
 
 .main-nav__logo {
@@ -22,9 +33,9 @@
 
 .main-nav__contact-me {
   float:right;
-  padding:15px 0px;
+  padding:10px 0px;
   font-family: unquote(map-get($headingtype, font-family));
-  line-height:1.5;
+  line-height:1;
   color:$headingColour;
   font-size:12px;
   text-transform:uppercase;
