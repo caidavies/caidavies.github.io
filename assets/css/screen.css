@@ -1108,8 +1108,8 @@ a:hover, a:active, a:focus {
   padding: 1em 0;
 }
 
-.image--centered {
-  margin: 0 auto;
+img.image--centered {
+  margin: 0 auto !important;
 }
 
 .main-container {
