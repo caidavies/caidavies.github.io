@@ -1110,6 +1110,7 @@ a:hover, a:active, a:focus {
 
 img.image--centered {
   margin: 0 auto !important;
+  display:block;
 }
 
 .main-container {

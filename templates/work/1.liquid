@@ -1,3 +1,4 @@
+{% block navclass %}main-nav-container--secondary{% endblock %}
 {% block content %}
 <section id="baseline">
   <div class="section typeset section--full-width">
@@ -5,15 +6,15 @@
       <div class="work-heading-container">
         <div class="main-container">
           <div class="work-heading">
-          <h1 class="heading--bordered heading--work heading--white">Application funnel @ Hassle.com</h1>
+            <h1 class="heading--bordered heading--work heading--white">Application funnel @ Hassle.com</h1>
           </div>
         </div>
       </div>
       <div class="main-container">
         <div class="work">
-          <h2>
+          <h1>
             The problem
-          </h2>
+          </h1>
           <p>
             The problem we faced to tackle in this iteration of the cleaner application funnel, was our bounce rate. With a bounce rate of 65%, though the conversion rate we had was suprisingly high, we felt there were certain ways we could improve that metric.
           </p>
@@ -82,49 +83,49 @@
         <div class="work">
           <p>
             This led me on to higher fidelity wireframes, using some dummy text, but also real text where applicable. We had decided to ship a 'condensed' version of the page and then individually ship each 'section' as a small feature, incrementally.
-        </div>
-        <img src="/assets/images/application-funnel/04.jpg" class="image image--padded image--centered" width="400"/>
-        <img src="/assets/images/application-funnel/05.jpg" class="image image--padded image--centered" width="940"/>
-        <div class="work">
-          <h2>
-            Application funnel
-          </h2>
-          <p>
-            Having a fairly good base to start building, I also decided to make some changes further into the bid funnel, as I would have to chnage the layout due to the changes we'd made. I decided to make the following changes:
-          </p>
-          <ol>
-            <li>
-              Due to having the postcode upfront, I would now be able to personalise the experience – showing a map as a background of where the applicant is from, as well as telling them whether they have work in that area.
-            </li>
-            <li>
-              Remove unwanted destractions from the navigation of the 2nd sectino of funnel, without removing capability to easily get out of the funnel.
-            </li>
-          </ol>
-          <h2>
-            Built product shots
-          </h2>
+          </div>
+          <img src="/assets/images/application-funnel/04.jpg" class="image image--padded image--centered" width="400"/>
+          <img src="/assets/images/application-funnel/05.jpg" class="image image--padded image--centered" width="940"/>
+          <div class="work">
+            <h2>
+              Application funnel
+            </h2>
+            <p>
+              Having a fairly good base to start building, I also decided to make some changes further into the bid funnel, as I would have to chnage the layout due to the changes we'd made. I decided to make the following changes:
+            </p>
+            <ol>
+              <li>
+                Due to having the postcode upfront, I would now be able to personalise the experience – showing a map as a background of where the applicant is from, as well as telling them whether they have work in that area.
+              </li>
+              <li>
+                Remove unwanted destractions from the navigation of the 2nd sectino of funnel, without removing capability to easily get out of the funnel.
+              </li>
+            </ol>
+            <h2>
+              Built product shots
+            </h2>
+          </div>
+          <img src="/assets/images/application-funnel/07.jpg" class="image image--padded image--centered" width="940"/>
+          <img src="/assets/images/application-funnel/08.jpg" class="image image--padded image--centered" width="940"/>
+          <img src="/assets/images/application-funnel/09.jpg" class="image image--padded image--centered" width="940"/>
+          <img src="/assets/images/application-funnel/10.jpg" class="image image--padded image--centered" width="940"/>
+          <img src="/assets/images/application-funnel/11.jpg" class="image image--padded image--centered" width="940"/>
+          <div class="work">
+            <h2>
+              Metric review
+            </h2>
 
-          <p>
-            High res shots of apply page go here !!!!!!!!!!!!!!!
-          </p>
+            <p>
+              Upon shipping the changes above, we saw a reduction on bounce rate to around <strong>43%,</strong> (a 22% decrease) thus practically hitting our success rate. The plan is to start shipping the individual tickets already wireframed, which we're hoping will decrease bounce rate even further.
+            </p>
 
-          <h2>
-            Metric review
-          </h2>
+            <p>
+              In terms of conversion, we increased overall conversion by about 1%, not as high a statistic, but our hypothesis is that this shall also increase with the extra iterations.
 
-          <p>
-            Upon shipping the changes above, we saw a reduction on bounce rate to around <strong>43%,</strong> (a 22% decrease) thus practically hitting our success rate. The plan is to start shipping the individual tickets already wireframed, which we're hoping will decrease bounce rate even further.
-          </p>
-
-          <p>
-            In terms of conversion, we increased overall conversion by about 1%, not as high a statistic, but our hypothesis is that this shall also increase with the extra iterations.
-
-          </p>
-
-
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-{% endblock %}
+  </section>
+  {% endblock %}
