@@ -402,9 +402,17 @@ a {
   color: #F7573D;
   text-decoration: none;
 }
+a .arrow {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
 a:hover, a:active, a:focus {
   color: #f9816e;
   text-decoration: none;
+}
+a:hover .arrow, a:active .arrow, a:focus .arrow {
+  padding-left: 3px;
 }
 
 .typeset p a, .typeset li a, .typeset h1 a {
