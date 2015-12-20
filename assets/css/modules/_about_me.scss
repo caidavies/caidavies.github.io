@@ -1,0 +1,9 @@
+.about-me-container {
+  @include clearfix;
+}
+
+.about-me {
+  @include span-columns(10);
+  @include shift(1);
+  padding-bottom:2em;
+}

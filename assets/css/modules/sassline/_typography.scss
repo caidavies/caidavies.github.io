@@ -15,7 +15,6 @@ body {
   font-style: normal;
   font-weight: map-get($bodytype, regular);
   line-height: 2rem;
-
   -webkit-font-smoothing: antialiased;
 
   @include fontsize(zeta, all);
@@ -42,7 +41,7 @@ a {
 .typeset {
 
   // Nice underlines for text links.
-  p a, li a {
+  p a, li a, h1 a {
     background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
     background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
     background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,20%) 50%);
@@ -51,6 +50,24 @@ a {
     background-repeat: repeat-x;
     background-size: 100% 0.15rem;
     text-shadow: 0.1rem 0 $backgroundColour,0.15rem 0 $backgroundColour,-0.1rem 0 $backgroundColour,-0.15rem 0 $backgroundColour;
+
+    &.white-link {
+      color:#fff;
+      background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten(#fff,20%) 50%);
+      background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten(#fff,20%) 50%);
+      background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten(#fff,20%) 50%);
+      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten(#fff,20%) 50%);
+      background-position: 0 93%;
+      background-repeat: repeat-x;
+      background-size: 100% 0.15rem;
+      text-shadow: 0.1rem 0 $primary,0.15rem 0 $primary,-0.1rem 0 $primary,-0.15rem 0 $primary;
+      &:hover, &:active, &:focus {
+        background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+        background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+        background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+          background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+      }
+    }
 
     &:hover, &:active, &:focus {
       background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
@@ -69,6 +86,7 @@ a {
     font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
 
     @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+    color: $bodyColour;
   }
 
   // Headings. OpenType ligatures, discretionary ligatures and lining figures enabled if available.
@@ -411,5 +429,22 @@ a {
     -ms-font-feature-settings: 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'onum' 1, 'kern' 1;
     font-feature-settings: 'onum' 1, 'kern' 1;
+  }
+}
+
+// Custom
+.heading--bordered {
+  border-bottom:3px solid $shadeOfGrey;
+  padding-bottom:.175rem;
+}
+
+.paragraph--bordered {
+  margin-top:1rem;
+}
+
+.heading--white.heading--white {
+  color:#fff;
+  &.heading--bordered {
+    border-color:#fff;
   }
 }

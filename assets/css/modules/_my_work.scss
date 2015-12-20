@@ -1,0 +1,47 @@
+.my-work-container {
+  @include clearfix;
+  max-width:100%;
+  width:100%;
+  background:$primary;
+  position:relative;
+  overflow:hidden;
+  &::before {
+    background: #fff;
+    content: '';
+    width: 110%;
+    height: 80px;
+    position: absolute;
+    top: -50px;
+    transform: rotate(-3deg);
+    left: -10px;
+  }
+}
+
+.my-work {
+  @include span-columns(10);
+  @include shift(1);
+  h1,h2,h3,h4,h5,p {color:#fff;}
+  padding:5em 0 2em 0;
+}
+
+.my-work__headline {
+  margin-top:2em;
+}
+
+.my-work__paragraph {
+  position:relative;
+  &:after {
+    width:60px;
+    height:3px;
+    background:$shadeOfGrey;
+    content:'';
+    position:absolute;
+    bottom:-30px;
+    left:0;
+  }
+  &:last-child {
+    &:after {
+      background:none;
+    }
+  }
+}

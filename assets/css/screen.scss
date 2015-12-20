@@ -1,9 +1,18 @@
-// Use SASS globbing to import all _.scss files in the module folder.
-// These should be independent modules that follow the BEM/SMACSS way
-@import "modules/*";
+@import "libs/bourbon/bourbon";
+@import "libs/neat/neat";
+
+
 @import "modules/sassline/reset";
 @import "modules/sassline/variables";
 @import "modules/sassline/mixins";
 @import "modules/sassline/modular-scale";
 @import "modules/sassline/layouts";
 @import "modules/sassline/typography";
+@import "modules/media";
+@import "modules/layout";
+@import "modules/navigation";
+@import "modules/index_intro";
+@import "modules/about_me";
+@import "modules/my_work";
+@import "modules/work";
+@import "modules/footer";

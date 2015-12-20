@@ -18,12 +18,54 @@
 	</head>
 
 	<body>
-
-		{% block header %}{% endblock %}
+		{% block header %}
+		<header class="main-nav-container {% block navclass %} {% endblock %}">
+			<nav class="main-nav">
+				<a href="/" class="main-nav__logo">
+					Cai Davies
+				</a>
+				<a href="mailto:hello@caidavies.me" title="Contact me" class="main-nav__contact-me">
+					Contact me
+				</a>
+			</nav>
+		</header>
+		{% endblock %}
 
 			{% block content %}{% endblock %}
 
-		{% block footer %}{% endblock %}
+		{% block footer %}
+			<footer class="main-footer">
+				<section id="baseline">
+				  <div class="section typeset section--full-width">
+				    <div class="single">
+					    <div class="main-container">
+								<ul class="main-footer-items">
+									<h3 class="heading--bordered">Contact me</h3>
+									<li class="main-footer-items__item main-footer-items__item--dribbble">
+										<h5>Dribbble</h5>
+										<p class="main-footer-items__paragraph">
+											<a href="https://dribbble/caidavies" title="View my work on Dribbble">View my work on Dribbble <span class="arrow">→</span></a>
+										</p>
+									</li>
+									<li class="main-footer-items__item main-footer-items__item--twitter">
+										<h5>Twitter</h5>
+										<p class="main-footer-items__paragraph">
+											<a href="https://twitter.com/_caidavies" title="See what i’m tweeting">See what i’m tweeting <span class="arrow">→</span></a>
+										</p>
+									</li>
+									<li class="main-footer-items__item main-footer-items__item--email">
+										<h5>Email</h5>
+										<p class="main-footer-items__paragraph">
+											<a href="mailto:hello@caidavies.me" title="Contact me via email">Contact me via email <span class="arrow">→</span></a>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</footer>
+		{% endblock %}
 
 		<!-- TODO: Select version of jquery and link to CDN -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

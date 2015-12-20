@@ -1,0 +1,9 @@
+.image--padded {
+  padding:1em 0;
+}
+
+img{
+  &.image--centered {
+    margin:0 auto !important;
+  }
+}
