@@ -65,9 +65,46 @@ a {
         background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
         background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
         background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
-          background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
       }
     }
+
+    &.dribbble-link {
+      color:$dribbble;
+      background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+      background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+      background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+      background-position: 0 93%;
+      background-repeat: repeat-x;
+      background-size: 100% 0.15rem;
+      text-shadow: 0.1rem 0 #fff,0.15rem 0 #fff,-0.1rem 0 #fff,-0.15rem 0 #fff;
+      &:hover, &:active, &:focus {
+        background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+        background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+        background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($dribbble,20%) 50%);
+      }
+    }
+
+    &.twitter-link {
+      color:$twitter;
+      background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+      background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+      background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+      background-position: 0 93%;
+      background-repeat: repeat-x;
+      background-size: 100% 0.15rem;
+      text-shadow: 0.1rem 0 #fff,0.15rem 0 #fff,-0.1rem 0 #fff,-0.15rem 0 #fff;
+      &:hover, &:active, &:focus {
+        background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+        background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+        background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($twitter,20%) 50%);
+      }
+    }
+
 
     &:hover, &:active, &:focus {
       background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);

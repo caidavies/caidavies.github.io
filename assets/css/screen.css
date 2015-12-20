@@ -434,6 +434,40 @@ a:hover, a:active, a:focus {
   background-image: -o-linear-gradient(top, transparent 50%, #fdd6d0 50%);
   background-image: linear-gradient(to bottom, transparent 50%, #fdd6d0 50%);
 }
+.typeset p a.dribbble-link, .typeset li a.dribbble-link, .typeset h1 a.dribbble-link {
+  color: #EC4989;
+  background-image: -webkit-linear-gradient(top, transparent 50%, #f6a5c5 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #f6a5c5 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #f6a5c5 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #f6a5c5 50%);
+  background-position: 0 93%;
+  background-repeat: repeat-x;
+  background-size: 100% 0.15rem;
+  text-shadow: 0.1rem 0 #fff,0.15rem 0 #fff,-0.1rem 0 #fff,-0.15rem 0 #fff;
+}
+.typeset p a.dribbble-link:hover, .typeset p a.dribbble-link:active, .typeset p a.dribbble-link:focus, .typeset li a.dribbble-link:hover, .typeset li a.dribbble-link:active, .typeset li a.dribbble-link:focus, .typeset h1 a.dribbble-link:hover, .typeset h1 a.dribbble-link:active, .typeset h1 a.dribbble-link:focus {
+  background-image: -webkit-linear-gradient(top, transparent 50%, #f6a5c5 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #f6a5c5 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #f6a5c5 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #f6a5c5 50%);
+}
+.typeset p a.twitter-link, .typeset li a.twitter-link, .typeset h1 a.twitter-link {
+  color: #4BAAF4;
+  background-image: -webkit-linear-gradient(top, transparent 50%, #abd7fa 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #abd7fa 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #abd7fa 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #abd7fa 50%);
+  background-position: 0 93%;
+  background-repeat: repeat-x;
+  background-size: 100% 0.15rem;
+  text-shadow: 0.1rem 0 #fff,0.15rem 0 #fff,-0.1rem 0 #fff,-0.15rem 0 #fff;
+}
+.typeset p a.twitter-link:hover, .typeset p a.twitter-link:active, .typeset p a.twitter-link:focus, .typeset li a.twitter-link:hover, .typeset li a.twitter-link:active, .typeset li a.twitter-link:focus, .typeset h1 a.twitter-link:hover, .typeset h1 a.twitter-link:active, .typeset h1 a.twitter-link:focus {
+  background-image: -webkit-linear-gradient(top, transparent 50%, #abd7fa 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #abd7fa 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #abd7fa 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #abd7fa 50%);
+}
 .typeset p a:hover, .typeset p a:active, .typeset p a:focus, .typeset li a:hover, .typeset li a:active, .typeset li a:focus, .typeset h1 a:hover, .typeset h1 a:active, .typeset h1 a:focus {
   background-image: -webkit-linear-gradient(top, transparent 50%, #fdd6d0 50%);
   background-image: -moz-linear-gradient(top, transparent 50%, #fdd6d0 50%);
@@ -1110,7 +1144,6 @@ a:hover, a:active, a:focus {
 
 img.image--centered {
   margin: 0 auto !important;
-  display:block;
 }
 
 .main-container {
