@@ -1342,7 +1342,7 @@ img.image--centered {
 
 .my-work__paragraph:after {
   width: 60px;
-  height: 3px;
+  height: 1px;
   background: #E4E5E6;
   content: '';
   position: absolute;
