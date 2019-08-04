@@ -365,9 +365,9 @@ html {
 }
 
 body {
-  font-family: "Sentinel A", "Sentinel B";
+  font-family: "Chronicle Display A", "Chronicle Display B";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2rem;
   -webkit-font-smoothing: antialiased;
   font-size: 1.3333333rem;
@@ -424,7 +424,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
   text-shadow: 0.1rem 0 #FFF, 0.15rem 0 #FFF, -0.1rem 0 #FFF, -0.15rem 0 #FFF;
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
 }
 .typeset p a.white-link, .typeset li a.white-link, .typeset h1 a.white-link {
@@ -526,9 +526,9 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   color: #35322F;
-  font-family: "Whitney A", "Whitney B";
+  font-family: "Chronicle Display A", "Chronicle Display B";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
 }
 .typeset h1, .typeset .alpha {
   line-height: 3rem;
@@ -877,7 +877,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   -ms-font-feature-settings: 'liga' 1, 'lnum' 1, 'tnum' 1, 'kern' 1;
   -o-font-feature-settings: 'liga' 1, 'lnum' 1, 'tnum' 1, 'kern' 1;
   font-feature-settings: 'liga' 1, 'lnum' 1, 'tnum' 1, 'kern' 1;
-  font-family: "Whitney A", "Whitney B";
+  font-family: "Chronicle Display A", "Chronicle Display B";
   font-style: normal;
   font-weight: 700;
   width: 100%;
@@ -956,7 +956,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   font-style: italic;
 }
 .typeset small, .typeset .caption {
-  font-family: "Whitney A", "Whitney B";
+  font-family: "Chronicle Display A", "Chronicle Display B";
   font-style: normal;
   font-weight: 700;
   font-size: 1.0666667rem;
@@ -1208,24 +1208,27 @@ img.image--centered {
 }
 
 .main-nav__logo {
-  font-family: "Whitney A", "Whitney B";
-  font-size: 22px;
+  font-family: "Knockout 52 A", "Knockout 52 B";
+  font-size: 18px;
   text-decoration: none;
   color: #35322F;
+  text-transform: uppercase;
+  
   float: left;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .main-nav__contact-me {
   float: right;
   padding: 10px 0px;
-  font-family: "Whitney A", "Whitney B";
+  font-family: "Knockout 52 A", "Knockout 52 B";
   line-height: 1;
   color: #35322F;
+  font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 400;
 }
 @media only screen and (max-width: 640px) {
   .main-nav__contact-me {
@@ -1248,14 +1251,15 @@ img.image--centered {
   margin-right: 0;
 }
 .index__intro h1 {
-  font-weight: 500;
-  font-family: "Sentinel A", "Sentinel B";
+  font-weight: 400;
+  font-family: "Chronicle Display A", "Chronicle Display B";
   margin-bottom: 24px;
   line-height: 1.4;
 }
 
 .index__intro h1 strong {
   font-style: italic;
+  font-weight:900;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1264,7 +1268,7 @@ img.image--centered {
   }
 }
 .index__intro h1 .index__heading-anchor {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .about-me-container:before, .about-me-container:after {
@@ -1281,7 +1285,7 @@ img.image--centered {
   margin-right: 2.3576516%;
   width: 82.9403914%;
   margin-left: 8.5298043%;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 .about-me:last-child {
   margin-right: 0;
@@ -1334,6 +1338,8 @@ img.image--centered {
 .my-work__paragraph {
   position: relative;
 }
+
+
 .my-work__paragraph:after {
   width: 60px;
   height: 3px;
