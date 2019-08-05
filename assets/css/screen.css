@@ -425,7 +425,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   background-size: 100% 0.15rem;
   text-shadow: 0.1rem 0 #FFF, 0.15rem 0 #FFF, -0.1rem 0 #FFF, -0.15rem 0 #FFF;
   font-weight: 900;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .typeset p a.white-link, .typeset li a.white-link, .typeset h1 a.white-link {
   color: #fff;
@@ -1158,7 +1158,7 @@ img.image--centered {
 }
 
 .main-container {
-  max-width: 940px;
+  max-width: 780px;
   margin: 0 auto;
 }
 .main-container img {
