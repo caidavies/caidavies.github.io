@@ -399,7 +399,7 @@ a {
   -ms-transition: color .1s, background-color .1s;
   -o-transition: color .1s, background-color .1s;
   transition: color .1s, background-color .1s;
-  color: #F7573D;
+  color: #FF333D;
   text-decoration: none;
 }
 a .arrow {
@@ -436,7 +436,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   background-position: 0 93%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
-  text-shadow: 0.1rem 0 #F7573D, 0.15rem 0 #F7573D, -0.1rem 0 #F7573D, -0.15rem 0 #F7573D;
+  text-shadow: 0.1rem 0 #FF333D, 0.15rem 0 #FF333D, -0.1rem 0 #FF333D, -0.15rem 0 #FF333D;
 }
 .typeset p a.white-link:hover, .typeset p a.white-link:active, .typeset p a.white-link:focus, .typeset li a.white-link:hover, .typeset li a.white-link:active, .typeset li a.white-link:focus, .typeset h1 a.white-link:hover, .typeset h1 a.white-link:active, .typeset h1 a.white-link:focus {
   background-image: -webkit-linear-gradient(top, transparent 50%, #fdd6d0 50%);
@@ -1021,7 +1021,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   margin-top: 0rem;
 }
 .typeset blockquote p {
-  border-left: 0.15rem solid #F7573D;
+  border-left: 0.15rem solid #FF333D;
   font-style: italic;
   padding-left: 1rem;
   margin-bottom: 1.87999rem;
@@ -1243,7 +1243,6 @@ img.image--centered {
   width: 82.9403914%;
   margin-left: 8.5298043%;
   margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 
@@ -1293,7 +1292,7 @@ img.image--centered {
 .my-work-container {
   max-width: 100%;
   width: 100%;
-  background: #F7573D;
+  background: #FF333D;
   position: relative;
   overflow: hidden;
 }
@@ -1454,8 +1453,8 @@ img.image--centered {
 }
 
 .main-footer-items__item--email::before {
-  background-color: #F7573D;
+  background-color: #FF333D;
 }
 .main-footer-items__item--email h1, .main-footer-items__item--email h2, .main-footer-items__item--email h3, .main-footer-items__item--email h4, .main-footer-items__item--email h5, .main-footer-items__item--email p, .main-footer-items__item--email a {
-  color: #F7573D;
+  color: #FF333D;
 }
