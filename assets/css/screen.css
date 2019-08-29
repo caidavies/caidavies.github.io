@@ -770,6 +770,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   -o-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
   font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
   margin-left: 2rem;
+  margin-bottom:1rem;
 }
 @media screen and (min-width: 40em) {
   .typeset ul li, .typeset ol li {
