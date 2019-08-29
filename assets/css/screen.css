@@ -1159,6 +1159,7 @@ img.image--centered {
 
 .main-container {
   max-width: 780px;
+  padding: 24px 0;
   margin: 0 auto;
 }
 .main-container img {
@@ -1180,8 +1181,46 @@ img.image--centered {
 }
 
 .main-nav-container--secondary {
-  background: #0097DB;
+  background-color:#FF333D;
+  background-size: cover;
+  min-height:480px;
 }
+
+.main-nav-container--sell-my-car {
+  background-image:url("../../assets/images/bg-images/sell-your-car.png");
+}
+.main-nav-container--secondary .heading--work {
+  color: #fff;
+  font-size: 56px;
+  line-height:1.2;
+  font-weight: 600;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.nav-heading-container {
+  width: 940px;
+  margin: 100px auto;
+}
+
+@media only screen and (max-width:940px) {
+
+  .main-nav-container--secondary {
+    min-height: 50vh;
+  }
+
+  .main-nav-container--secondary .heading--work {
+    font-size:40px;
+  }
+
+}
+@media only screen and (max-width: 940px) {
+  .nav-heading-container {
+    width:90%;
+    margin:80px auto;
+  }
+}
+
 .main-nav-container--secondary .main-nav__logo {
   color: #fff;
 }
