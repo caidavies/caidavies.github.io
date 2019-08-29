@@ -531,6 +531,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   font-weight: 900;
 }
 .typeset h4 {
+  margin-top: .5rem !important;
   margin-bottom: .5rem !important;
 }
 .typeset h1, .typeset .alpha {
