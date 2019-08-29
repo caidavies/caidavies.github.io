@@ -530,6 +530,9 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   font-style: normal;
   font-weight: 900;
 }
+.typeset h4 {
+  margin-bottom: .5rem !important;
+}
 .typeset h1, .typeset .alpha {
   line-height: 3rem;
   font-size: 2.3333333rem;
@@ -1194,6 +1197,12 @@ img.image--centered {
 .main-nav-container--juce {
   background-image:url("../../assets/images/bg-images/juce.png"); 
 }
+
+.main-nav-container--hassle-application-funnel {
+  background-image:url("../../assets/images/bg-images/application-funnel.png"); 
+
+}
+
 .main-nav-container--secondary .heading--work {
   color: #fff;
   font-size: 56px;
