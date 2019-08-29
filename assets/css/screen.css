@@ -1183,11 +1183,15 @@ img.image--centered {
 .main-nav-container--secondary {
   background-color: #2B2D42;
   background-size: cover;
+  background-position: 50% 50%;
   min-height:480px;
 }
 
 .main-nav-container--sell-my-car {
   background-image:url("../../assets/images/bg-images/sell-your-car.png");
+}
+.main-nav-container--juce {
+  background-image:url("../../assets/images/bg-images/juce.png"); 
 }
 .main-nav-container--secondary .heading--work {
   color: #fff;
