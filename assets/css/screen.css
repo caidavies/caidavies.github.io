@@ -1440,6 +1440,11 @@ img.image--centered {
   width: 82.9403914%;
   margin-left: 8.5298043%;
 }
+
+.work h4 {
+  margin-bottom: 0;
+}
+
 .work:last-child {
   margin-right: 0;
 }
