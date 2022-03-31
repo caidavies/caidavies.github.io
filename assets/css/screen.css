@@ -20,7 +20,7 @@
 }
 
 @font-face {
-  font-family: ChoronicaleBold;
+  font-family: ChronicleBold;
   src: url(../fonts/ChronicleBold.otf);
 }
 
@@ -110,6 +110,10 @@ caption, th, td {
   .section {
     max-width: 68.4210526rem;
   }
+}
+
+ul li {
+  color: #374151;
 }
 
 .section--full-width {
@@ -535,7 +539,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   line-height: 1.6em;
   margin-bottom: 1.43999rem;
   padding-top: 0.56001rem;
-  color: rgba(0, 0, 0, 0.84);
+  color: #374151;
 }
 @media screen and (min-width: 40em) {
   .typeset p {
@@ -567,7 +571,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   -ms-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-  color: rgba(0, 0, 0, 0.84);
+  color: #111827;
   font-family: ChronicleBold, serif;
   font-style: normal;
   font-weight: 700;
@@ -589,7 +593,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
 }
 
 .typeset h2.work-headline {
-  font-family: ChronicleRegular, sans-serif;
+  font-family: ChronicleBold, sans-serif;
   margin-top: 2rem !important;
   font-weight: 800 !important;
   font-size:35px;
