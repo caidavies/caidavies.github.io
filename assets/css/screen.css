@@ -600,7 +600,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
 }
 
 .typeset h3.work-subheadline {
-  color: rgba(0, 0, 0, 0.54);
+  color: #6B7280;
   font-weight:300;
   font-size: 1.3rem;
   font-family: MercuryLight, serif;
