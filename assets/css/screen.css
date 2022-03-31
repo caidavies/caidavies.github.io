@@ -1,3 +1,31 @@
+@font-face {
+  font-family: MercuryLight;
+  src: url(../fonts/MercuryLight.otf);
+}
+
+@font-face {
+  font-family: MercuryBold;
+  src: url(../fonts/MercuryBold.otf);
+}
+
+@font-face {
+  font-family: Knockout;
+  src: url(../fonts/Knockout.otf);
+}
+
+
+@font-face {
+  font-family: ChronicleRegular;
+  src: url(../fonts/ChronicleRegular.otf);
+}
+
+@font-face {
+  font-family: ChoronicaleBold;
+  src: url(../fonts/ChronicleBold.otf);
+}
+
+
+
 html {
   box-sizing: border-box;
 }
@@ -9,6 +37,15 @@ html {
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.bg-teal {
+  background: #F0FDFA;
+}
+
+.profile-pic {
+  border-radius: 6px;
+  margin-bottom: 64px;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -339,7 +376,7 @@ caption, th, td {
 }
 
 h1,h2,h3,h4,h5,h5 {
-  font-family: "Chronicle Display A", "Chronicle Display B", serif;
+  font-family: ChronicleRegular, serif;
 }
 
 
@@ -370,7 +407,7 @@ html {
 }
 
 body {
-  font-family: "Mercury Text G1 A", "Mercury Text G1 B";
+  font-family: MercuryLight, serif;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
@@ -404,7 +441,7 @@ a {
   -ms-transition: color .1s, background-color .1s;
   -o-transition: color .1s, background-color .1s;
   transition: color .1s, background-color .1s;
-  color: #FF333D;
+  color: #0F766E;
   text-decoration: none;
 }
 a .arrow {
@@ -413,7 +450,7 @@ a .arrow {
   transition: all 0.2s ease-in-out;
 }
 a:hover, a:active, a:focus {
-  color: #f9816e;
+  color: #115E59;
   text-decoration: none;
 }
 a:hover .arrow, a:active .arrow, a:focus .arrow {
@@ -421,10 +458,10 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
 }
 
 .typeset p a, .typeset li a, .typeset h1 a {
-  background-image: -webkit-linear-gradient(top, transparent 50%, #fbac9f 50%);
-  background-image: -moz-linear-gradient(top, transparent 50%, #fbac9f 50%);
-  background-image: -o-linear-gradient(top, transparent 50%, #fbac9f 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #fbac9f 50%);
+  background-image: -webkit-linear-gradient(top, transparent 50%, #0F766E 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #0F766E 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #0F766E 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #0F766E 50%);
   background-position: 0 93%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
@@ -441,13 +478,13 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   background-position: 0 93%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
-  text-shadow: 0.1rem 0 #FF333D, 0.15rem 0 #FF333D, -0.1rem 0 #FF333D, -0.15rem 0 #FF333D;
+  text-shadow: 0.1rem 0 #0F766E, 0.15rem 0 #0F766E, -0.1rem 0 #0F766E, -0.15rem 0 #0F766E;
 }
 .typeset p a.white-link:hover, .typeset p a.white-link:active, .typeset p a.white-link:focus, .typeset li a.white-link:hover, .typeset li a.white-link:active, .typeset li a.white-link:focus, .typeset h1 a.white-link:hover, .typeset h1 a.white-link:active, .typeset h1 a.white-link:focus {
-  background-image: -webkit-linear-gradient(top, transparent 50%, #fdd6d0 50%);
-  background-image: -moz-linear-gradient(top, transparent 50%, #fdd6d0 50%);
-  background-image: -o-linear-gradient(top, transparent 50%, #fdd6d0 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #fdd6d0 50%);
+  background-image: -webkit-linear-gradient(top, transparent 50%, #115E59 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #115E59 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #115E59 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #115E59 50%);
 }
 .typeset p a.dribbble-link, .typeset li a.dribbble-link, .typeset h1 a.dribbble-link {
   color: #EC4989;
@@ -484,10 +521,10 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   background-image: linear-gradient(to bottom, transparent 50%, #abd7fa 50%);
 }
 .typeset p a:hover, .typeset p a:active, .typeset p a:focus, .typeset li a:hover, .typeset li a:active, .typeset li a:focus, .typeset h1 a:hover, .typeset h1 a:active, .typeset h1 a:focus {
-  background-image: -webkit-linear-gradient(top, transparent 50%, #fdd6d0 50%);
-  background-image: -moz-linear-gradient(top, transparent 50%, #fdd6d0 50%);
-  background-image: -o-linear-gradient(top, transparent 50%, #fdd6d0 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #fdd6d0 50%);
+  background-image: -webkit-linear-gradient(top, transparent 50%, #115E59 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #115E59 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #115E59 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #115E59 50%);
 }
 .typeset p {
   -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
@@ -531,13 +568,13 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   color: rgba(0, 0, 0, 0.84);
-  font-family: "Chronicle Display A", "Chronicle Display B";
+  font-family: ChronicleBold, serif;
   font-style: normal;
   font-weight: 700;
 }
 
 .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
-  font-family: "Mercury Text G1 A", "Mercury Text G1 B";
+  font-family: MercuryBold, serif;
   font-weight:700;
 }
 /*.typeset h4 {
@@ -552,7 +589,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
 }
 
 .typeset h2.work-headline {
-  font-family: "Chronicle Display A", "Chronicle Display B";
+  font-family: ChronicleRegular, sans-serif;
   margin-top: 2rem !important;
   font-weight: 800 !important;
   font-size:35px;
@@ -562,6 +599,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   color: rgba(0, 0, 0, 0.54);
   font-weight:300;
   font-size: 1.3rem;
+  font-family: MercuryLight, serif;
   line-height: 2rem;
   margin-bottom: 1.5rem;
   padding-top: 0;
@@ -909,7 +947,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   -ms-font-feature-settings: 'liga' 1, 'lnum' 1, 'tnum' 1, 'kern' 1;
   -o-font-feature-settings: 'liga' 1, 'lnum' 1, 'tnum' 1, 'kern' 1;
   font-feature-settings: 'liga' 1, 'lnum' 1, 'tnum' 1, 'kern' 1;
-  font-family: "Chronicle Display A", "Chronicle Display B", serif;
+  font-family: ChronicleBold, serif;
   font-style: normal;
   font-weight: 700;
   width: 100%;
@@ -1053,7 +1091,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
   margin-top: 0rem;
 }
 .typeset blockquote p {
-  border-left: 0.15rem solid #FF333D;
+  border-left: 0.15rem solid #0F766E;
   font-style: italic;
   padding-left: 1rem;
   margin-bottom: 1.87999rem;
@@ -1190,7 +1228,7 @@ img.image--centered {
 }
 
 .main-container {
-  max-width: 780px;
+  max-width: 1130px;
   padding: 24px 0;
   margin: 0 auto;
 }
@@ -1223,11 +1261,11 @@ img.image--centered {
   background-image:url("../../assets/images/bg-images/sell-your-car.png");
 }
 .main-nav-container--juce {
-  background-image:url("../../assets/images/bg-images/juce.png"); 
+  background-image:url("../../assets/images/bg-images/juce.png");
 }
 
 .main-nav-container--hassle-application-funnel {
-  background-image:url("../../assets/images/bg-images/application-funnel.png"); 
+  background-image:url("../../assets/images/bg-images/application-funnel.png");
 
 }
 
@@ -1289,7 +1327,7 @@ img.image--centered {
 }
 
 .main-nav__logo {
-  font-family: "Knockout 52 A", "Knockout 52 B";
+  font-family: Knockout, sans-serif;
   font-size: 18px;
   font-style:normal;
   text-decoration: none;
@@ -1302,7 +1340,7 @@ img.image--centered {
 .main-nav__contact-me {
   float: right;
   padding: 10px 0px;
-  font-family: "Knockout 52 A", "Knockout 52 B";
+  font-family: Knockout, sans-serif;
   font-style:;
   line-height: 1;
   color: #35322F;
@@ -1333,7 +1371,7 @@ img.image--centered {
 }
 .index__intro h1 {
   font-weight: 300;
-  font-family: "Chronicle Display A", "Chronicle Display B", serif;
+  font-family: ChronicleRegular, serif;
   margin-bottom: 24px;
   line-height: 1.4;
 }
@@ -1374,7 +1412,7 @@ img.image--centered {
 .my-work-container {
   max-width: 100%;
   width: 100%;
-  background: #FF333D;
+  background: #0F766E;
   position: relative;
   overflow: hidden;
 }
@@ -1540,8 +1578,8 @@ img.image--centered {
 }
 
 .main-footer-items__item--email::before {
-  background-color: #FF333D;
+  background-color: #0F766E;
 }
 .main-footer-items__item--email h1, .main-footer-items__item--email h2, .main-footer-items__item--email h3, .main-footer-items__item--email h4, .main-footer-items__item--email h5, .main-footer-items__item--email p, .main-footer-items__item--email a {
-  color: #FF333D;
+  color: #0F766E;
 }
