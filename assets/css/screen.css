@@ -1290,6 +1290,7 @@ img.image--centered {
   font-size: 56px;
   line-height:1.2;
   font-weight: 700;
+  letter-spacing: 1px;
   text-align:center;
   margin: 0 auto;
   font-family: ChronicleBold;
@@ -1313,8 +1314,8 @@ img.image--centered {
 }
 @media only screen and (max-width: 940px) {
   .nav-heading-container {
-    width:90%;
-    margin:80px auto;
+    width:100%;
+    margin: 80px auto 120px auto;
   }
 }
 
