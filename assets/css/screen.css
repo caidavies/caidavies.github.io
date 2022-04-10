@@ -1277,7 +1277,9 @@ img.image--centered {
 
 .main-nav-container--hassle-application-funnel {
   background-image:url("../../assets/images/bg-images/application-funnel.png");
-
+}
+.main-nav-container--search {
+  background-image:url("../../assets/images/bg-images/search.png");
 }
 
 .main-nav-container--secondary .heading--work {
@@ -1594,4 +1596,9 @@ img.image--centered {
 }
 .main-footer-items__item--email h1, .main-footer-items__item--email h2, .main-footer-items__item--email h3, .main-footer-items__item--email h4, .main-footer-items__item--email h5, .main-footer-items__item--email p, .main-footer-items__item--email a {
   color: #0F766E;
+}
+
+.work-image-container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
