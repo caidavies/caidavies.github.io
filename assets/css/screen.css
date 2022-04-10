@@ -593,7 +593,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
 }
 
 .typeset h2.work-headline {
-  font-family: ChronicleBold, sans-serif;
+  font-family: MercuryBold, serif;
   margin-top: 2rem !important;
   font-weight: 800 !important;
   font-size:35px;
@@ -609,7 +609,7 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
 .typeset h3.work-subheadline {
   color: #6B7280;
   font-weight:300;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: MercuryLight, serif;
   line-height: 2rem;
   margin-bottom: 1.5rem;
@@ -621,6 +621,9 @@ a:hover .arrow, a:active .arrow, a:focus .arrow {
     font-size: 2.1428571rem;
     margin-bottom: 0.2071329rem;
     padding-top: 0.7928671rem;
+  }
+  .typeset h3.work-subheadline {
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 50em) {
