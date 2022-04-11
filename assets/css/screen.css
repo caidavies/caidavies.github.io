@@ -105,6 +105,9 @@ caption, th, td {
   .section {
     max-width: 64.7058824rem;
   }
+  .work-image-container iframe {
+    height: 550px !important;
+  }
 }
 @media screen and (min-width: 100em) {
   .section {
@@ -1472,6 +1475,10 @@ img.image--centered {
   color: #fff;
 }
 
+h4 {
+  margin-bottom: 24px;
+}
+
 .my-work__headline {
   margin-top: 2em;
 }
@@ -1504,6 +1511,17 @@ img.image--centered {
 
 .work h4 {
   margin-bottom: 0;
+}
+
+.mb-24 {
+  margin-bottom: 24px !important;
+}
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.p-lr-16 {
+  padding: 0 16px 0 16px !important;
 }
 
 .work:last-child {
@@ -1611,6 +1629,12 @@ img.image--centered {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.work-image-container iframe {
+  height: 300px;
+}
+
+
 
 .work-section {
   border-bottom: 1px solid #E5E7EB;
