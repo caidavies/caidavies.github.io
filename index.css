@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: CooperHewitt;
+  src: url('./fonts/CooperHewitt-HeavyItalic.otf');
+}
+
+.logo {
+  font-family: 'CooperHewitt', sans-serif;
+}
+
+.gradient-background {
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, rgba(182,251,255,0.5), rgba(131,164,212,0.5));
+  background: linear-gradient(to right, rgba(182,251,255,0.5), rgba(131,164,212,0.5));
+}
+.underline-effect {
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, transparent 68px, #246FFF 0);
+  background-repeat: no-repeat;
+}
+
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #36D1DC 0%, #5B86E5 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: all 0.2s ease-in;
+}
+
+.underline--magical:hover {
+    background-size: 100% 88%;
+    color: #fff;
+}
