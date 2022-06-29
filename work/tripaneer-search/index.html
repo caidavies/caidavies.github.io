@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="../../index.css" rel="stylesheet">
   <link href="../../app.js" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
@@ -40,7 +41,7 @@
     </div>
 
     <div class="relative pt-6 pb-16 sm:pb-24">
-      <div>
+      <div data-aos="fade-down" data-aos-duration="750" data-aos-delay="150">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
           <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
             <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
@@ -255,7 +256,9 @@
   </div>
 </div>
 
-
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
