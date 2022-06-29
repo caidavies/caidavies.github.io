@@ -36,3 +36,7 @@
     background-size: 100% 88%;
     color: #fff;
 }
+
+figure, iframe {
+  min-height: 400px;
+}
