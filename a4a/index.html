@@ -9,17 +9,30 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="relative overflow-hidden bg-albion">
+<div class="relative overflow-hidden bg-albion" id="home">
   <div class="mx-auto max-w-7xl">
     <div class="relative z-10 bg-albion pb-16 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
+      <svg class="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block" fill="#242A44" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="50,0 100,0 50,100 0,100"></polygon>
+        </svg>
       <div>
         <div class="relative px-4 pt-6 sm:px-6 lg:px-8">
-          <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+          <nav class="relative flex items-center justify-between sm:h-18 lg:justify-start" aria-label="Global">
             <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
               <div class="flex w-full items-center justify-between md:w-auto">
-                <a href="#">
+                <a href="#home">
                   <span class="sr-only">Action for albion</span>
-                  <img src="logo.png" class="h-8 w-auto sm:h-10" width="48px" />
+                  <div/>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none">
+                  <path fill="#0C1654" d="M80 40c0 22.091-17.909 40-40 40S0 62.091 0 40 17.909 0 40 0s40 17.909 40 40Z"/>
+                  <path fill="#fff" fill-rule="evenodd" d="M40 77.273c20.585 0 37.273-16.688 37.273-37.273C77.273 19.415 60.585 2.727 40 2.727 19.415 2.727 2.727 19.415 2.727 40c0 20.585 16.688 37.273 37.273 37.273ZM40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40Z" clip-rule="evenodd"/>
+                  <path fill="#0C1654" d="M74.546 40c0 19.079-15.467 34.546-34.546 34.546S5.455 59.079 5.455 40 20.92 5.455 40 5.455 74.546 20.92 74.546 40Z"/>
+                  <path fill="#fff" fill-rule="evenodd" d="M40 71.818c17.573 0 31.818-14.245 31.818-31.818S57.573 8.182 40 8.182 8.182 22.427 8.182 40 22.427 71.818 40 71.818Zm0 2.728c19.079 0 34.546-15.467 34.546-34.546S59.079 5.455 40 5.455 5.455 20.92 5.455 40 20.92 74.546 40 74.546Z" clip-rule="evenodd"/>
+                  <path fill="#fff" d="M29.09 7.91v13.908h7.274V6.364L29.09 7.909ZM17.3 16.845l-4.573 5.027h9.145V11.818l-4.573 5.027ZM62.727 16.818l4.546 5h-9.091v-10l4.545 5ZM50.91 7.91v13.908h-7.274V6.364l7.273 1.545ZM29.09 72.09V58.183h7.274v15.454l-7.273-1.545ZM16.364 63.182l-4.546-5h9.091v10l-4.545-5ZM62.727 63.182l4.546-5h-9.091v10l4.545-5ZM50.91 71.273V58.182h-6.364v14.545l6.363-1.454Z"/>
+                  <path fill="#EF4B44" d="m25.291 33.637-3.207-9.291h-3.029l-3.36 9.29h3.411l.28-1.31h1.986l.229 1.31h3.69Zm-4.327-3.564h-1.082l.599-2.75.483 2.75ZM33.357 28.19c0-3.22-1.552-4.124-4.009-4.124-2.66 0-4.162 1.056-4.162 4.925 0 3.87 1.502 4.926 4.162 4.926 2.495 0 4.022-.93 4.022-4.251h-3.194c-.064 1.298-.331 1.489-.828 1.489-.585 0-.84-.255-.84-2.164 0-1.909.255-2.163.84-2.163.484 0 .751.178.815 1.361h3.194ZM39.026 33.637v-6.428h2.075v-2.863h-7.395v2.863h2.075v6.428h3.245ZM45.044 33.637v-9.291h-3.245v9.29h3.245ZM50.243 33.917c2.71 0 4.212-1.057 4.212-4.926s-1.502-4.925-4.212-4.925c-2.711 0-4.213 1.056-4.213 4.925 0 3.87 1.502 4.926 4.213 4.926Zm0-2.762c-.637 0-.891-.255-.891-2.164 0-1.909.254-2.163.89-2.163.637 0 .892.254.892 2.163 0 1.91-.255 2.164-.891 2.164ZM63.668 33.637v-9.291H61.16v4.721l-2.481-4.721h-3.246v9.29h2.533v-4.67l2.456 4.67h3.246ZM25.26 54.545l-3.207-9.29h-3.029l-3.36 9.29h3.411l.28-1.31h1.985l.23 1.31h3.69Zm-4.327-3.563h-1.082l.599-2.75.483 2.75ZM31.725 54.545v-2.863H29.14v-6.428h-3.245v9.291h5.829ZM35.663 54.558c4.556 0 5.09-.623 5.09-2.66 0-.993-.266-1.756-1.666-2.176.941-.382 1.234-1.031 1.234-1.96 0-1.884-.789-2.508-4.53-2.508h-3.233v9.291h.89v.013h2.215Zm.14-3.856c1.413.013 1.794.089 1.794.878 0 .738-.381.815-1.794.815v-1.693Zm0-3.284c1.196.013 1.527.09 1.527.7 0 .611-.33.687-1.527.687v-1.387ZM45.075 54.545v-9.29H41.83v9.29h3.245ZM50.274 54.825c2.71 0 4.212-1.056 4.212-4.925 0-3.87-1.501-4.925-4.212-4.925S46.06 46.03 46.06 49.9c0 3.869 1.502 4.925 4.213 4.925Zm0-2.761c-.637 0-.891-.255-.891-2.164 0-1.91.254-2.164.89-2.164.637 0 .892.255.892 2.164 0 1.909-.255 2.164-.891 2.164ZM63.699 54.545v-9.29H61.19v4.721l-2.481-4.721h-3.246v9.29h2.533v-4.67l2.456 4.67H63.7ZM32.413 43.636v-2.64h2.16V39h-2.16v-1.09h2.705v-2.237h-5.487v7.963h2.782ZM39.032 43.877c2.323 0 3.61-.906 3.61-4.222 0-3.317-1.287-4.222-3.61-4.222-2.324 0-3.611.905-3.611 4.222 0 3.316 1.287 4.221 3.61 4.221Zm0-2.368c-.546 0-.764-.218-.764-1.854 0-1.637.218-1.855.764-1.855.545 0 .763.218.763 1.855 0 1.636-.218 1.854-.764 1.854ZM50.855 43.68l-1.298-2.814c.698-.382.905-1.091.905-2.39 0-2.487-.785-2.803-4.21-2.803H43.48v7.963h2.782V41.28h.731l.786 2.356 3.076.044Zm-4.593-6.044c.71 0 1.102.011 1.31.164.163.12.218.317.218.655 0 .305-.044.49-.175.61-.196.186-.6.197-1.353.197v-1.626Z"/> -->
+                  <img src="logo.png" width="80px">
+                  </svg>
+                  </div>
                 </a>
               </div>
             </div>
@@ -40,9 +53,7 @@
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-3">
             <span class="block xl:inline text-white">Support the team</span>
-            <div>
-            <span class="block text-red-500 xl:inline">not</span><span class="block xl:inline text-white"> the board</span>
-            </div>
+            <span class="block text-red-500 xl:inline sm:block">not</span><span class="block xl:inline text-white"> the board</span>
           </h1>
           <p class="mt-3 text-base text-gray-300 sm:mx-auto sm:mt-1 sm:max-w-xl sm:text-lg md:mt-1 md:text-xl lg:mx-0">Action For Albion is a fan led protest group to highlight the grave concerns we have surrounding the ownership of our great club. </p>
         </div>
@@ -67,18 +78,20 @@
         <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
           <figure>
             <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-              <img class="rounded-lg object-cover object-center shadow-lg" src="albion.png" alt="Whitney leaning against a railing on a downtown street" width="435" height="396">
+              <img class="rounded-lg object-cover object-center shadow-lg" src="about-us.png" alt="Whitney leaning against a railing on a downtown street" width="435" height="396">
             </div>
           </figure>
         </div>
       </div>
       <div class="mt-8 lg:mt-0">
         <div class="mx-auto max-w-prose text-base lg:max-w-none">
-          <p class="text-lg text-gray-500">Nulla feugiat varius felis et molestie. Quisque suscipit accumsan ante, at porta dolor. Sed vehicula in dui lobortis condimentum.
+          <p class="text-lg text-gray-500">Action For Albion was formed due to unsatisfactory communication from the club's controlling shareholder Guochuan Lai & Chief Executive Ron Gourlay regarding financial matters.</p>
+          <p class="text-lg text-gray-500 mt-4">Since the group was formed, there have been a series of worrying financial developments, that have not been communicated properly to the fans of the club.</p>
+          <p class="text-lg text-gray-500 mt-4">Our aim, is to raise awareness to the gross mismanagement of West Bromwich Albion through legally & peacefully protests. In addition, we would like to enable a dialog between the custodian's of the football club & its fans.</p>
+          <p class="text-lg text-gray-500 mt-4">
+            We will always support the team & coaching staff & never take actions that could harm results on the pitch. Our protests will remain to be structured, legal & peaceful.
+          </p>
 
-Ut eget volutpat ex. Vestibulum dolor lectus, interdum sit amet tincidunt et, sollicitudin eu dui. Vivamus diam eros, feugiat eu tincidunt at, eleifend nec augue. Sed tellus ante, semper sed nisl eget, facilisis dictum felis. Vivamus sit amet elementum sapien. Sed vel metus justo.
-
-Cras eleifend sem sit amet lorem tempor, eu imperdiet magna sodales. Vivamus congue velit non nibh rutrum lobortis non vitae orci. Aliquam nulla erat, porttitor quis mauris ut, euismod mattis quam. Donec urna dolor, volutpat eu tellus ut, aliquet blandit dui. Aenean venenatis, ante vel ultricies imperdiet, ipsum massa dignissim risus, vitae lobortis lectus turpis imperdiet quam. Nulla in enim at elit lobortis faucibus. Phasellus velit tortor, vulputate eget ligula vitae, luctus lobortis ipsum.</p>
         </div>
       </div>
     </div>
@@ -105,7 +118,7 @@ Cras eleifend sem sit amet lorem tempor, eu imperdiet magna sodales. Vivamus con
               <input type="email" value="" name="EMAIL" id="mce-EMAIL" required class="w-full rounded-md border border-transparent email px-5 py-3 placeholder-gray-500 focus:border-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 sm:max-w-xs" placeholder="Enter your email">
             </div>
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-albion hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-800">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-semibold text-albion hover:bg-gray-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-800">
             </div>
           </form>
         </div>
@@ -120,20 +133,20 @@ Cras eleifend sem sit amet lorem tempor, eu imperdiet magna sodales. Vivamus con
     <div class="mt-6 pt-10">
       <dl class="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-12 md:space-y-0">
         <div>
-          <dt class="text-lg font-medium leading-6 text-gray-900">What&#039;s the best thing about Switzerland?</dt>
-          <dd class="mt-2 text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
+          <dt class="text-lg font-semibold leading-6 text-gray-900">How will you protest?</dt>
+          <dd class="mt-2 text-base text-gray-500">We will always protest peacefully & legally. We are not an angry mob & do not condone any form of violence, racism, homophobia, transphobia or misogyny from our members.</dd>
         </div>
         <div>
-          <dt class="text-lg font-medium leading-6 text-gray-900">What&#039;s the best thing about Switzerland?</dt>
-          <dd class="mt-2 text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
+          <dt class="text-lg font-semibold leading-6 text-gray-900">Can I help?</dt>
+          <dd class="mt-2 text-base text-gray-500">We are always looking for fans to join, please <a href="#contact" class="font-semibold text-gray-900 underline hover:text-gray-700">Contact Us</a> on the form below, or through <a href="">Twitter</a>, or <a href="">Facebook</a> to get involved.</dd>
         </div>
         <div>
-          <dt class="text-lg font-medium leading-6 text-gray-900">What&#039;s the best thing about Switzerland?</dt>
-          <dd class="mt-2 text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
+          <dt class="text-lg font-semibold leading-6 text-gray-900">When is your next protest?</dt>
+          <dd class="mt-2 text-base text-gray-500">We aim to regularly protest at both home & away matches. Follow our social accounts to see regular updates.</dd>
         </div>
         <div>
-          <dt class="text-lg font-medium leading-6 text-gray-900">What&#039;s the best thing about Switzerland?</dt>
-          <dd class="mt-2 text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
+          <dt class="text-lg font-semibold leading-6 text-gray-900">Won't protesting affect the team on the pitch?</dt>
+          <dd class="mt-2 text-base text-gray-500">We will never protest against the team & do not believe our protests will affect the team's performance in any way.</dd>
         </div>
       </dl>
     </div>
@@ -150,7 +163,37 @@ Cras eleifend sem sit amet lorem tempor, eu imperdiet magna sodales. Vivamus con
     <div class="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12 flex">
       <div class="mx-auto max-w-lg flex align-middle flex-col">
         <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
-        <p class="mt-3 text-lg leading-6 text-gray-500">If you have any questions, or press inquiries please feel free to contact us using this form. You can also email info@actionforalbion.com</p>
+        <p class="mt-3 text-lg leading-6 text-gray-500">If you have any questions, or press inquiries please feel free to contact us using this form. You can also email <a href="mailto:info@actionforalbion.co.uk" class="font-bold underline text-albion hover:text-gray-600">info@actionforalbion.co.uk</a></p>
+         <ul role="list" class="mt-8 flex space-x-12">
+            <li>
+              <a class="text-indigo-200 hover:opacity-70 transition-opacity" href="https://www.facebook.com/groups/520631832849932/">
+                <span class="sr-only">Facebook</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#212121" d="M24 12.072a12 12 0 1 0-13.875 11.854v-8.385H7.078v-3.469h3.047V9.428c0-3.007 1.792-4.669 4.532-4.669a18.611 18.611 0 0 1 2.687.234v2.954H15.83a1.734 1.734 0 0 0-1.947 1.49 1.71 1.71 0 0 0-.008.385v2.25H17.2l-.532 3.469h-2.8v8.385A12 12 0 0 0 24 12.072Z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a class="text-indigo-200 hover:opacity-70 transition-opacity" href="https://www.twitter.com/action4albion">
+                <span class="sr-only">Twitter</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#212121" d="M24 4.6c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2-.9-1-2.2-1.6-3.6-1.6-2.7 0-4.9 2.2-4.9 4.9 0 .4 0 .8.1 1.1-4.2-.2-7.8-2.2-10.2-5.2-.5.8-.7 1.6-.7 2.5 0 1.7.9 3.2 2.2 4.1-.8 0-1.6-.2-2.2-.6v.1c0 2.4 1.7 4.4 3.9 4.8-.4.1-.8.2-1.3.2-.3 0-.6 0-.9-.1.6 2 2.4 3.4 4.6 3.4-1.7 1.3-3.8 2.1-6.1 2.1-.4 0-.8 0-1.2-.1 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14-7.5 14-14v-.6c1-.7 1.8-1.6 2.5-2.5z" class="nc-icon-wrapper"/></svg>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="text-indigo-200 hover:opacity-70 transition-opacity" href="https://www.instagram.com/actionforalbion/">
+                <span class="sr-only">Instagram</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="#212121" class="nc-icon-wrapper"><path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.072 6.072 0 0 1 2.042.379 3.4 3.4 0 0 1 1.265.823 3.4 3.4 0 0 1 .823 1.265 6.072 6.072 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.072 6.072 0 0 1-.379 2.042 3.644 3.644 0 0 1-2.088 2.088 6.072 6.072 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.072 6.072 0 0 1-2.042-.379 3.4 3.4 0 0 1-1.265-.823 3.4 3.4 0 0 1-.823-1.265 6.072 6.072 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.072 6.072 0 0 1 .379-2.042 3.4 3.4 0 0 1 .823-1.265 3.4 3.4 0 0 1 1.265-.823 6.072 6.072 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.108 8.108 0 0 0-2.67.511A5.625 5.625 0 0 0 1.577 4.8a8.108 8.108 0 0 0-.511 2.67C1.013 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.108 8.108 0 0 0 .511 2.67A5.625 5.625 0 0 0 4.8 22.423a8.108 8.108 0 0 0 2.67.511C8.638 22.987 9.013 23 12 23s3.362-.013 4.535-.066a8.108 8.108 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.223 8.108 8.108 0 0 0 .511-2.67c.053-1.168.066-1.543.066-4.53s-.013-3.362-.066-4.535a8.108 8.108 0 0 0-.511-2.67A5.625 5.625 0 0 0 19.2 1.577a8.108 8.108 0 0 0-2.67-.511C15.362 1.013 14.987 1 12 1Z"/><path d="M12 6.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Z"/><circle cx="17.872" cy="6.128" r="1.32"/></g></svg>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="text-indigo-200 hover:opacity-70 transition-opacity" href="https://www.tiktok.com/@action4albion">
+                <span class="sr-only">TikTok</span>
+         <svg xmlns="http://www.w3.org/2000/svg" width="83" height="24" fill="none"><g clip-path="url(#a)"><path fill="#FF004F" d="M15.74 8.663a9.426 9.426 0 0 0 5.498 1.76V6.478c-.388 0-.775-.04-1.155-.121v3.104a9.428 9.428 0 0 1-5.498-1.759v8.048a7.29 7.29 0 0 1-7.293 7.289 7.26 7.26 0 0 1-4.06-1.233A7.272 7.272 0 0 0 8.447 24a7.291 7.291 0 0 0 7.293-7.29V8.664Zm1.424-3.978a5.495 5.495 0 0 1-1.424-3.218V.96h-1.095a5.52 5.52 0 0 0 2.52 3.725ZM5.78 18.718a3.335 3.335 0 0 1 3.667-5.196V9.49a7.36 7.36 0 0 0-1.154-.067v3.138a3.34 3.34 0 0 0-4.348 3.178c0 1.302.746 2.43 1.835 2.979Z"/><path fill="#000" d="M14.585 7.703a9.428 9.428 0 0 0 5.499 1.759V6.358a5.52 5.52 0 0 1-2.92-1.673A5.52 5.52 0 0 1 14.647.96h-2.874v15.75a3.336 3.336 0 0 1-5.992 2.008 3.334 3.334 0 0 1 1.5-6.313c.354 0 .694.055 1.013.156V9.423a7.29 7.29 0 0 0-5.06 12.384 7.261 7.261 0 0 0 4.06 1.233 7.291 7.291 0 0 0 7.292-7.29V7.704Z"/><path fill="#00F2EA" d="M20.084 6.358v-.84a5.5 5.5 0 0 1-2.92-.833 5.514 5.514 0 0 0 2.92 1.673ZM14.646.96a5.608 5.608 0 0 1-.06-.453V0h-3.969v15.75a3.335 3.335 0 0 1-4.837 2.968 3.335 3.335 0 0 0 5.992-2.007V.96h2.874ZM8.294 9.423V8.53A7.29 7.29 0 0 0 0 15.75a7.28 7.28 0 0 0 3.233 6.057 7.29 7.29 0 0 1 5.06-12.384Z"/><path fill="#FF004F" d="M66.07 19.74c2.881 0 5.218-2.318 5.218-5.176s-2.337-5.176-5.219-5.176h-.786c2.882 0 5.218 2.318 5.218 5.176s-2.336 5.176-5.218 5.176h.786Z"/><path fill="#00F2EA" d="M65.212 9.388h-.786c-2.882 0-5.219 2.318-5.219 5.176s2.337 5.176 5.219 5.176h.786c-2.883 0-5.219-2.318-5.219-5.176s2.337-5.176 5.219-5.176Z"/><path fill="#000" d="M25.54 7.048V9.67h3.072v9.998h3.075V9.742h2.501l.858-2.694H25.54Zm25.16 0V9.67h3.074v9.998h3.074V9.742h2.502l.857-2.694h-9.506ZM35.619 8.537c0-.822.671-1.49 1.5-1.49.83 0 1.502.668 1.502 1.49s-.672 1.489-1.502 1.489c-.829 0-1.5-.667-1.5-1.49Zm0 2.552h3.002v8.58h-3.002v-8.58Zm4.289-4.041v12.62h3.002v-3.26l.93-.852 2.93 4.183h3.216l-4.218-6.097 3.789-3.688h-3.645l-3.002 2.978V7.048h-3.002Zm32.38 0v12.62h3.003v-3.26l.929-.852 2.931 4.183h3.217l-4.218-6.097 3.789-3.688h-3.646l-3.002 2.978V7.048h-3.003Zm-7.005 12.691c2.882 0 5.219-2.317 5.219-5.175 0-2.859-2.337-5.177-5.219-5.177h-.07c-2.883 0-5.22 2.318-5.22 5.177 0 2.858 2.337 5.175 5.22 5.175h.07Zm-2.573-5.175a2.527 2.527 0 0 1 2.538-2.517c1.4 0 2.537 1.126 2.537 2.517a2.528 2.528 0 0 1-2.537 2.517 2.528 2.528 0 0 1-2.538-2.517Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h82.367v24H0z"/></clipPath></defs></svg>
+                </svg>
+              </a>
+            </li>
+          </ul>
       </div>
     </div>
     <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
@@ -158,15 +201,15 @@ Cras eleifend sem sit amet lorem tempor, eu imperdiet magna sodales. Vivamus con
         <form target="_blank" action="https://formsubmit.co/hello@caidavies.me" method="POST" class="grid grid-cols-1 gap-y-6">
           <div>
             <label for="name" class="sr-only">Full name</label>
-            <input type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Full name">
+            <input type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Full name">
           </div>
           <div>
             <label for="email" class="sr-only">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Email">
+            <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Email">
           </div>
           <div>
             <label for="message" class="sr-only">Message</label>
-            <textarea id="message" name="message" rows="4" class="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Message"></textarea>
+            <textarea id="message" name="message" rows="4" class="block w-full rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Message"></textarea>
           </div>
           <div>
             <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-albion py-3 px-6 text-base font-bold font-albion text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
@@ -178,5 +221,16 @@ Cras eleifend sem sit amet lorem tempor, eu imperdiet magna sodales. Vivamus con
 </div>
 
 
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
 </body>
 </html>
